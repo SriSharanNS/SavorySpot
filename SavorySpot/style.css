@@ -1,0 +1,761 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Playfair+Display:ital@0;1&family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&family=Libre+Baskerville&family=Playfair+Display:ital@0;1&family=Roboto+Condensed:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital@0;1&display=swap');
+
+
+/* .vert-move {
+    -webkit-animation: mover 0.5s   alternate;
+    animation: mover 0.5s   alternate;
+}
+.vert-move {
+    -webkit-animation: mover 0.5s   alternate;
+    animation: mover 0.5s   alternate;
+}
+@-webkit-keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+}
+@keyframes mover {
+    0% { transform: translateY(0); }
+    100% { transform: translateY(-30px); }
+} */
+
+
+
+
+.bg-images{
+    background-color: #000000;
+
+}
+
+h2{
+  color: gray;
+  font-size: 15px;
+  
+}
+
+h3{
+  color: rgba(249, 189, 110, 0.932);
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 40px;
+}
+
+
+.parent-img{
+  background-image: url("./Images/hall-background.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+
+.phone-date i{
+    color: rgba(255, 255, 0, 0.551);
+    padding-top: 3px;
+    font-size: 14px;  
+}
+
+.phone-date h4{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;;
+}
+
+.phone-date .d-flex.px-2,.en-de{
+    padding-top: 3px;
+}
+
+
+.navbar{
+    background-color: #121111c1;
+    height: 70px;
+ 
+}
+
+.navbar-toggler{
+    opacity: 0.5;
+}
+
+@media (max-width: 1200px) {
+    .collapse.navbar-collapse{
+      background-color: gray;
+    }
+}
+
+
+.navbar h2{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+.navbar a{
+   color: white;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+
+
+.navbar a:hover{
+    color: rgba(249, 189, 110, 0.932);
+}
+
+.dropdown .dropbtn {
+    border: none;
+    color: white;
+    background-color: inherit;
+    font-size: 16px;
+    padding-top: 7px;
+    font-weight: 400;
+  }
+  
+.dropdown:hover .dropbtn {
+    color:#cda45e
+  }
+  
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+.navbar .book-table{
+    color: white;
+    font-size:16px;
+    font-weight: 400;
+    border-color: rgba(249, 189, 110, 0.932);
+    height: auto;
+    width: auto;
+    border-style:solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .book-table:hover{
+    color: white;
+    background-color: rgba(249, 189, 110, 0.932);
+    cursor: pointer;
+    
+}
+
+
+
+
+
+
+
+.row-play{
+    padding: 200px 30px;
+}
+
+.row-play .book-table{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    border-color: rgba(249, 189, 110, 0.932);
+    height: auto;
+    width: auto;
+    border-style:solid;
+    border-radius: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 8px;
+}
+
+.row-play .book-table:hover{
+    color: white;
+    background-color: rgba(249, 189, 110, 0.932);
+    cursor: pointer;
+    
+}
+
+.row-play p{
+    font-size: 50px;
+    color: #fff;
+}
+
+.row-play span{
+    color: rgba(249, 189, 110, 0.932);
+}
+
+
+.play-btn i{
+    font-size: 60px;
+    color: rgba(249, 189, 110, 0.932);
+}
+
+.video{
+    height: 50px;
+    width: 50px;
+    background-repeat: no-repeat;
+    
+}
+
+
+.fs-5{
+    font-family: "PT Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.fade-effect{
+    transform: translate(0, -10px);
+    transition: 0.6s;
+}
+
+
+
+
+.hall-bg{
+    background-image: url("./Images/hall-background-2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    
+}
+
+.hall-bg p{
+    color: #fff;
+    font-size: 17px;
+}
+
+.hall-bg h3{
+    color: #fff;
+    font-size: 25px;
+}
+
+.hall-bg i{
+    color: #fff;
+}
+
+.hall-bg p i{
+    color:#cda45e;
+    font-size: larger;
+}
+
+.hall-bg img{
+    transition: all 0.3s;
+    border: rgba(128, 128, 128, 0.358);
+    border-style:solid;
+}
+
+.hall-bg img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+
+
+.bg-black .card{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 23, 20, 0.886);
+
+}
+
+.bg-black h5{
+    color: rgba(249, 189, 110, 0.932);
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 30px;
+    
+}
+
+.bg-black h6{
+   color: white;
+   font-family: "Playfair Display", serif;
+    font-weight: 1000;
+    font-style: normal;
+    font-size: 20px;
+   
+}
+
+.bg-black p{
+    color: white;  
+}
+
+.bg-black .card:hover {
+    background-color: rgba(249, 189, 110, 0.932);
+    cursor: pointer;
+    
+}
+
+.bg-black .card:hover h5{
+    color: white;
+}
+
+.bg-black .card .card-body:hover{
+    transform: translate(0, -10px);
+    transition: 0.6s;
+}
+
+
+.menu{
+    background-color: rgb(17, 14, 11);
+}
+
+.menu .row a{
+    text-decoration: none;
+    color: white;
+}
+
+.menu .row .d-grid{
+    width: 300px;
+    font-family: "Libre Baskerville", serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.menu .row a:hover{
+    color: rgba(249, 189, 110, 0.932);
+}
+
+.menu img{
+    width: 80px;
+    height: 80px;
+    border:gray;
+    border-radius: 50px;
+    border-width: 5px;
+    border-style:outset;
+}
+
+.menu h6{
+    color: white;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.menu h6:hover{
+    color: rgba(249, 189, 110, 0.932);
+    cursor: pointer;
+}
+
+.menu {
+    width: auto;
+    height:auto;    
+}
+
+.menu span{
+    color: rgba(249, 189, 110, 0.932);
+}
+
+#salads , #Specialty , #starters {
+  display: none;
+}
+
+
+.rotate {
+    width: 100px; /* Adjust based on your element's size */
+    height: 100px; /* Adjust based on your element's size */
+    background-color: #ff0000; /* Adjust based on your element's appearance */
+}
+
+.rotate-animate {
+animation: rotateAnimation 0.2s linear ; /* Duration and timing function */
+}
+
+@keyframes rotateAnimation {
+    0% {
+      transform: rotate(0deg); /* Initial rotation */
+    }
+    100% {
+      transform: rotate(360deg); /* Final rotation */
+    }
+}
+
+
+
+/* @keyframes special{
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0%);
+    opacity: 1;
+  }
+}
+
+.special{
+  animation: 1.5s fadeInUp;
+} */
+
+
+.special .nav-link{
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px;
+}
+
+.special .nav-link:hover {
+    color: #cda45e;
+}
+
+.special .nav-link.active{
+    color: #fff;
+    background-color: #cda45e;
+}
+
+.special img{
+    height: 250px;
+    width: 250px;
+    
+}
+
+.special .tab-pane h5{
+    color: white;
+} 
+
+.special .tab-pane p,.special .tab-pane span{
+    color: gray;
+} 
+
+.events-main h2{
+    color: #fff;
+}
+
+.events-main{
+    background-image: url("./Images/hall-background-3.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+
+.events span{
+    font-size: 25px;
+    font-weight: 600;
+    color:white;
+    text-decoration: underline;
+    text-decoration-color: #cda45e;
+}
+
+
+.slick-dots li button:before{
+    color:darkgray;
+    font-size: 10px;
+}
+
+.slick-dots li.slick-active button:before{
+    font-size: 10px;
+    color: #cda45e;
+    border-color: #cda45e;
+}
+
+.bg-black input,.bg-black  textarea{
+    color:rgba(120, 118, 23, 0.834);
+    background-color:black;
+    border-color:#6a4e1db7;
+    border-style: groove;
+    width: 100%;
+    
+}
+
+.bg-black textarea{ 
+  width:100%;
+}
+
+.bg-black .book-table{
+    color: white;
+    background-color: #cda45e;
+    border-radius: 40px;
+    width: auto;
+    height: auto;
+    font-size:medium;
+}
+
+.bg-black .book-table:hover{
+    cursor: pointer;
+    background-color: #6c5631;
+}
+
+.about{
+    background-color:  rgb(17, 14, 11);
+}
+
+.about .card-profile{
+    width: auto;
+    height: auto;
+    padding: 10px;
+    
+ 
+}
+
+.about .card-profile .card-text{
+   width: auto;
+   height: 100%;
+   background-color: rgb(39, 34, 29);
+   border-radius: 10px;
+   text-align: center;
+   padding: 10px;
+   
+}
+
+.about .bio{
+    padding-left: 20px;
+    padding-top: -15px;
+    color: white;
+    
+}
+
+.about .bio span{
+    font-size: 15px;
+    text-decoration: none;
+    color: white;
+    
+}
+
+.about .card-profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 80px;
+}
+
+.about p{
+    color: white;
+}
+
+.about i{
+    color:#cda45e;
+    font-size: 25px;
+}
+
+.about strong{
+  font-family: "Playfair Display", serif;
+  font-weight: 800;
+  font-style: normal;
+}
+
+
+
+.gallery{
+    background-color:black;
+}
+
+.gallery img{
+    transition: all 0.3s;
+}
+
+.gallery img:hover{
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-p-inn{
+  position: relative;
+  width: 26rem;
+}
+
+.card-p-inn .desp{
+  position: absolute;
+  overflow: hidden;
+  padding-left: 140px;
+  margin-top: -90px;
+  color:white;
+  opacity: 0;
+}
+
+.card-p-inn img:hover{
+
+    opacity: 0.3;
+    cursor: pointer;
+  
+  + .desp{  
+      opacity: 1;
+      cursor: pointer;
+      transition: transform 300ms;
+      display:block;
+      color: white;
+      transform: translate(0, -10px);
+      transition: 0.6s;
+  }
+}
+
+
+.contact{
+    background-color: #000000;
+}
+
+.info{
+    background-color: #000000;
+}
+
+.info i{
+    color: #cda45e;
+    font-size:50px;
+}
+
+.info {
+    font-size: 20px;
+    color: white;
+}
+
+.info span{
+    font-size: 14px;
+    color: grey;
+    font-weight: 500;
+}
+
+.info input,.info  textarea{
+    color:rgba(120, 118, 23, 0.834);
+    background-color:black;
+    border-color:rgba(91, 90, 24, 0.541);
+    border-style: groove;
+    width: 100%;
+}
+
+.info .book-table{
+    color: white;
+    background-color: #cda45e;
+    border-radius: 40px;
+    width: auto;
+    height: auto;
+    font-size:medium;
+}
+
+.info .book-table:hover{
+    cursor: pointer;
+    background-color: #6c5631;
+}
+
+.services h2{
+    font-size: 25px;
+    color: #fff;
+    padding-top: 12px;
+    font-weight: lighter;
+}
+
+.services p{
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.services b{
+font-size: smaller;
+font-weight: 700;
+color: #fff;
+padding-top: 20px;
+}
+
+.services .icons{
+    font-size: x-large;
+    color: #fff;
+    padding-top: 20px;
+    padding-right: 20px;
+}
+
+.services .icons i{
+    padding-right: 10px;
+}
+
+.services small{
+    font-size: 15px;
+    color: #fff;
+    font-family: "Playfair Display", serif;
+    font-weight: 800;
+    padding-top: 20px;
+}
+
+.services small span{
+    color: #fff;
+    font-size: 15px;
+    
+    
+}
+
+.services a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+}
+
+.services a:hover{
+    color: #cda45e;
+}
+
+.services a i{
+    color: #cda45e;
+    padding-right:10px;
+}
+
+.services .icons.d-flex i:hover{
+  color: #cda45e;
+}
+
+
+.footer i{
+ color: #cda45e;
+}
+
+
+.footer h6{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.scroll-up{
+    position: relative;
+}
+
+.scroll-up i{
+    position:fixed; 
+    font-size:xx-large;
+    color: #cda45e;
+    padding: 10px 10px;
+    bottom: 0;
+    right: 0;
+}
+
+
+.profile{
+    background-color: #000000;
+}
+
+.profile strong{
+font-family: "Playfair Display", serif;
+font-weight: 600;
+font-style: normal;
+font-size: 20px;
+
+}
+
+
+
